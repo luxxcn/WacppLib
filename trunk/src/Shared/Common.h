@@ -50,8 +50,8 @@
 #include <climits>
 #include <cstdlib>
 
-#include <hash_map>
-#include <hash_set>
+#include <unordered_map>
+#include <unordered_set>
 
 typedef signed __int8    int8;
 typedef signed __int16   int16;

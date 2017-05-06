@@ -53,3 +53,6 @@ trunk/win/VC90/Shared___Win32_Debug/vc120.idb
 *.pdb
 *.sdf
 trunk/win/WacppLib.v12.suo
+trunk/win/.vs
+*.log
+trunk/win/VC90/Shared___Win32_Debug/shared.idb

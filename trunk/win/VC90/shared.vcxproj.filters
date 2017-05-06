@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Shared\Auth\MD5.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Auth\BigNumber.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Config\Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Config\Ini\ConfigIni.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Config\dotconfpp\dotconfpp.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Config\dotconfpp\mempool.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Database\Database.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Database\CreateInterface.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Database\MySQLDatabase\MySQLDatabase.cpp">
+      <Filter>Database\MySQLDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Database\SQLiteDatabase\SQLiteDatabase.cpp">
+      <Filter>Database\SQLitDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Database\SQLiteDatabase\sqlite3\sqlite3.c">
+      <Filter>Database\SQLitDatabase\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Log\Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Network\CircularBuffer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Network\Socket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Network\SocketMgrWin32.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Network\SocketOpsWin32.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Network\SocketWin32.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Threading\AtomicBoolean.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Threading\AtomicCounter.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Threading\AtomicULong.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Threading\CThreads.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Threading\Mutex.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Threading\ThreadPool\ThreadPool.cpp">
+      <Filter>Threading\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Util\CallBack.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Util\MapFile.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Util\MapFileEntry.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Util\printStackTrace.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Util\StackTrace.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Util\TextFile.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Shared\Util\Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Shared\Common.h" />
+    <ClInclude Include="..\..\src\Shared\Singleton.h" />
+    <ClInclude Include="..\..\src\Shared\Auth\MD5.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Auth\BigNumber.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Config\Config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Config\ConfigEnv.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Config\Ini\ConfigIni.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Config\dotconfpp\dotconfpp.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Config\dotconfpp\mempool.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Database\Database.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Database\DatabaseEnv.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Database\Field.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Database\MySQLDatabase\MySQLDatabase.h">
+      <Filter>Database\MySQLDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Database\SQLiteDatabase\SQLiteDatabase.h">
+      <Filter>Database\SQLitDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Database\SQLiteDatabase\sqlite3\sqlite3.h">
+      <Filter>Database\SQLitDatabase\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Log\Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Network\CircularBuffer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Network\ListenSocketWin32.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Network\Network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Network\Socket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Network\SocketDefines.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Network\SocketMgrWin32.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Network\SocketOps.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Threading\Threading.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Threading\AtomicBoolean.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Threading\AtomicCounter.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Threading\AtomicULong.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Threading\CThreads.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Threading\FQueue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Threading\Mutex.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Threading\Guard.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Threading\ThreadPool\ThreadBase.h">
+      <Filter>Threading\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Threading\ThreadPool\ThreadPool.h">
+      <Filter>Threading\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Util\Array.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Util\ByteBuffer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Util\CallBack.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Util\Errors.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Util\MapFile.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Util\MapFileEntry.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Util\printStackTrace.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Util\StackTrace.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Util\TextFile.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shared\Util\Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{cfd92614-ea78-452b-86ba-16e4d797a6f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{b90f732b-97c6-4381-a817-4d14e972967c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{a20e0ab3-b418-4833-bdfa-1c0b4260c674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\MySQLDatabase">
+      <UniqueIdentifier>{bf031717-5b89-4531-9fff-a85e018e7ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\SQLitDatabase">
+      <UniqueIdentifier>{e89dd97a-3c82-44ba-af4f-014f2e2ae85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\SQLitDatabase\sqlite3">
+      <UniqueIdentifier>{2650d823-3c0d-438d-891d-8568da3657a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{86073726-78a5-45e0-97f0-e9b681758676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{29aebe3e-c271-4af7-b7dd-41f2fcfab9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{983a8951-8f5e-4bce-93d4-879b087dad84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{bad051d7-2718-4872-b3b7-0879b73f853e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading\ThreadPool">
+      <UniqueIdentifier>{0a9142b0-b5f2-4888-ba00-db2036894f08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
