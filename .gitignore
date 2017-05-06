@@ -45,3 +45,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.obj
+*.lib
+trunk/win/VC90/Shared___Win32_Debug/shared.log
+*.tlog
+trunk/win/VC90/Shared___Win32_Debug/vc120.idb
+*.pdb
+*.sdf
+trunk/win/WacppLib.v12.suo
