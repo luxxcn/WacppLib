@@ -41,7 +41,7 @@
     <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>.\Shared___Win32_Debug\</OutDir>
+    <OutDir>.\..\..\bin\Debug\</OutDir>
     <IntDir>.\Shared___Win32_Debug\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -52,7 +52,7 @@
     <ClCompile>
       <AdditionalOptions>/Zm256 /bigobj  %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\dep\include;..\..\src\Shared;..\..\src\Shared\Util;..\..\src\Shared\Log;..\..\src\Shard\Config;..\..\src\Shared\Threading;..\..\src\Shared\Threading\ThreadPool;..\..\src\Shared\Database;..\..\src\Shared\Database\MySQLDatabase;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\dep\include;..\..\src\Shared;..\..\src\Shared\Util;..\..\src\Shared\Log;..\..\src\Shared\Network;..\..\src\Shard\Config;..\..\src\Shared\Threading;..\..\src\Shared\Threading\ThreadPool;..\..\src\Shared\Database;..\..\src\Shared\Database\MySQLDatabase</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>

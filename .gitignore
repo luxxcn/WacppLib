@@ -55,4 +55,12 @@ trunk/win/VC90/Shared___Win32_Debug/vc120.idb
 trunk/win/WacppLib.v12.suo
 trunk/win/.vs
 *.log
+trunk/win/VC90/Shared___Win32_Debug/
+trunk/win/Debug/
+trunk/bin/
+trunk/win/RiskListener/Debug/
 trunk/win/VC90/Shared___Win32_Debug/shared.idb
+trunk/win/shared/shared.vcxproj.user
+*.user
+trunk/win/RiskListener/RiskListener___Win32_Debug/vc141.idb
+*.idb
