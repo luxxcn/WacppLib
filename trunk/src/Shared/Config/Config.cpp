@@ -18,6 +18,8 @@
 
 #include "ConfigEnv.h"
 
+createFileSingleton(Config);
+
 Config::Config() : mIgnoreCase(true), mConf(NULL)
 {
 }

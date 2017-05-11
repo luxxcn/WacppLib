@@ -64,3 +64,4 @@ trunk/win/shared/shared.vcxproj.user
 *.user
 trunk/win/RiskListener/RiskListener___Win32_Debug/vc141.idb
 *.idb
+trunk/win/RiskListener/log.txt
