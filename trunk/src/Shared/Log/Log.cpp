@@ -85,7 +85,7 @@ void Log::outString(const char * format, ...)
     va_list ap;
 
     va_start(ap, format);
-    vsnprintf(buf, 32768, 327668, format, ap);
+    vsnprintf(buf, 32768, 32768, format, ap);
     va_end(ap);
 
     SetConsoleTextAttribute(m_hStdout, TWHITE);
@@ -94,14 +94,14 @@ void Log::outString(const char * format, ...)
 
 void Log::outError(const char *format, ...)
 {
-    if(m_file)
+    if(!m_file)
         return;
 
     char buf[32768];
     va_list ap;
 
     va_start(ap, format);
-    vsnprintf(buf, 32768, 327668, format, ap);
+    vsnprintf(buf, 32768, 32768, format, ap);
     va_end(ap);
 
     SetConsoleTextAttribute(m_hStderr, TRED);
@@ -119,7 +119,7 @@ void Log::outDebug(const char *format, ...)
     va_list ap;
 
     va_start(ap, format);
-    vsnprintf(buf, 32768, 327668, format, ap);
+    vsnprintf(buf, 32768, 32768, format, ap);
     va_end(ap);
 
     SetConsoleTextAttribute(m_hStdout, TBLUE);

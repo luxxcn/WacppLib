@@ -65,15 +65,15 @@ bool MySQLDatabase::Initialize(
             continue;
 
         if(mysql_options(temp, MYSQL_SET_CHARSET_NAME, "utf8"))
-            sLog.Error("MySQL", "设置`utf8`编码失败");
+            sLog.Error("MySQL, %s", "设置`utf8`编码失败");
 
         if(mysql_options(temp, MYSQL_OPT_RECONNECT, &my_true))
-            sLog.Error("MySQL", "设置允许重连失败");
+            sLog.Error("MySQL, %s", "设置允许重连失败");
 
         temp2 = mysql_real_connect(temp, hostname, username, password, dbname, port, NULL, 0);
         if(!temp2)
         {
-            sLog.outError("MySQL", "连接失败,原因:`%s`", mysql_error(temp));
+            sLog.outError("MySQL, Connect error:`%s`", mysql_error(temp));
             mysql_close(temp);
             return false;
         }

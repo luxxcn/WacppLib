@@ -87,7 +87,7 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>%(AdditionalDependencies);shared.lib</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies);shared.lib;libmysql_debug_win32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\dep\lib;..\..\bin\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
@@ -117,7 +117,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>..\..\bin\Release;..\..\dep\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>%(AdditionalDependencies);shared.lib</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies);shared.lib;libmysql_release_win32.lib</AdditionalDependencies>
     </Link>
     <ProjectReference>
       <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
