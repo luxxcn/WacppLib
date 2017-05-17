@@ -78,6 +78,11 @@ typedef unsigned __int64 uint64;
     #define SCRIPT_DECL __declspec(dllexport)
 #endif
 
+inline uint32 now() 
+{
+    return GetTickCount();
+}
+
 #include "Singleton.h"
 #include "Util.h"
 

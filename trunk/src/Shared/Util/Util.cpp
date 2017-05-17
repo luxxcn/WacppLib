@@ -62,3 +62,24 @@ void SetThreadName(const char * format, ...)
     __except(EXCEPTION_CONTINUE_EXECUTION)
     {}
 }
+
+WCHAR* utf8ToUnicode(char* szU8Buf)
+{
+    int nUTF8 = strlen(szU8Buf);
+    int nWCHAR = MultiByteToWideChar(CP_UTF8, 0, szU8Buf, nUTF8, NULL, 0);
+    WCHAR* szUnicode = new WCHAR[nWCHAR + 1];
+    MultiByteToWideChar(CP_UTF8, 0, szU8Buf, nUTF8, szUnicode, nWCHAR);
+    szUnicode[nWCHAR] = '\0';
+
+    return szUnicode;
+}
+
+char *unicodeToUtf8(WCHAR *zWideBuff)
+{
+
+    int nByte = WideCharToMultiByte(CP_UTF8, 0, zWideBuff, -1, 0, 0, 0, 0);
+    char *szUtf8 = new char[nByte + 1];
+    szUtf8[nByte] = '\0';
+    WideCharToMultiByte(CP_UTF8, 0, zWideBuff, -1, szUtf8, nByte, 0, 0);
+    return szUtf8;
+}

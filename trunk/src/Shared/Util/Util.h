@@ -32,4 +32,9 @@ typedef struct tagTHREADNAME_INFO
     DWORD dwFlags; // reserved for future use, must be zero
 } THREADNAME_INFO;
 
+// required£º delete[] result;
+WCHAR* utf8ToUnicode(char* szU8Buf);
+// required£º delete[] result;
+char *unicodeToUtf8(WCHAR *zWideBuff);
+
 #endif
