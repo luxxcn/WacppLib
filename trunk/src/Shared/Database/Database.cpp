@@ -103,7 +103,7 @@ QueryResult * Database::Query(const char * sql, ...)
     // Send the query
     QueryResult * result = NULL;
     DatabaseConnection * conn = GetFreeConnection();
-    if(_SendQuery(conn, sql, false))
+    if(_SendQuery(conn, query, false))
         result = _StoreQueryResult(conn, query);
 
     conn->Busy.Release();
